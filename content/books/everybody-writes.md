@@ -1,6 +1,6 @@
 ---
 title: Everybody Writes
-date: 2020-04-28T22:00:00Z
+date: 2020-04-28T13:00:00Z
 draft: false
 categories:
 - "\U0001F4D6 Everybody Writes"
