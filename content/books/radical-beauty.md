@@ -21,6 +21,6 @@ With powerful DIY home skincare and beauty remedies and treatments to address ev
 
 {{% post-it title="Warning! 🚨" %}}
 
-Hong Kong Phooey, number one super guy. __**Hong Kong Phooey**__, quicker than the human eye. He’s got style, _*a groovy style*_, and a car that just won’t stop.
+Hong Kong Phooey, number one super guy. **Hong Kong Phooey**, quicker than the human eye. He’s got style, _a groovy style_, and a car that just won’t stop.
 
 {{% / post-it %}}
