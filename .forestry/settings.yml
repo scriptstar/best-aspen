@@ -10,14 +10,14 @@ sections:
   templates:
   - pagenotfound
 - type: directory
-  path: content/content/books
+  path: content/books
   label: Book
   create: all
   match: "*.md"
   templates:
   - bookspage
 - type: directory
-  path: content/content/page
+  path: content/page
   label: start
   create: all
   match: "*.md"
