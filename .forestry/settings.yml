@@ -2,30 +2,36 @@
 new_page_extension: md
 auto_deploy: false
 admin_path: static/admin
-webhook_url: 'https://api.stackbit.com/project/5ea85a0751da8f0019edc0f3/webhook/forestry'
+webhook_url: https://api.stackbit.com/project/5ea85a0751da8f0019edc0f3/webhook/forestry
 sections:
-  - type: document
-    label: '404'
-    path: content/404.md
-    templates:
-      - pagenotfound
-  - type: directory
-    path: content/content/books/
-    match: '*.md'
-    label: Book
-    create: all
-    templates:
-      - bookspage
-  - type: directory
-    path: content/content/page/
-    match: '*.md'
-    exclude: _index.md
-    label: start
-    create: all
-    templates:
-      - startpage
-upload_dir: static/images/books/
-public_path: /images/books/
+- type: document
+  path: content/404.md
+  label: '404'
+  templates:
+  - pagenotfound
+- type: directory
+  path: content/content/books
+  label: Book
+  create: all
+  match: "*.md"
+  templates:
+  - bookspage
+- type: directory
+  path: content/content/page
+  label: start
+  create: all
+  match: "*.md"
+  exclude: _index.md
+  templates:
+  - startpage
+upload_dir: static/images/books
+public_path: "/images/books"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ':filename:'
+file_template: ":filename:"
+build:
+  preview_output_directory: public
+  install_dependencies_command: npm install
+  preview_docker_image: node:10
+  mount_path: "/srv"
+  instant_preview_command: npm run forestry:preview
