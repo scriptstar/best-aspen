@@ -25,7 +25,7 @@ sections:
   templates:
   - startpage
 upload_dir: static/images/books
-public_path: "/images/books"
+public_path: images/books
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
