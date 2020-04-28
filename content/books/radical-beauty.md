@@ -8,7 +8,7 @@ bookTitle: Radical Beauty
 bookDescription: How to Transform Yourself from the Inside Out
 bookIntroduction: How to Transform Yourself from the Inside Out
 amzonOneLink: https://www.amazon.co.uk/gp/product/1101906030/ref=as_li_ss_tl?pf_rd_r=BSCNRGMBE7N3318E9MJ3&pf_rd_p=e632fea2-678f-4848-9a97-bcecda59cb4e&linkCode=ll1&tag=bestpric-21&linkId=b8211962f64a440cf1f95f8cbbac25bc&language=en_GB
-bookImage: "/images/books/Radical-Beauty-1.jpg"
+bookImage: "/images/books/Radical-Beauty.jpg"
 
 ---
 Feel more beautiful, healthy, and energized than you have in years! Now, a revolutionary new way of helping you realize the true beauty that is your birthright!
