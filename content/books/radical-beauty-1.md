@@ -11,6 +11,8 @@ amzonOneLink: https://www.amazon.co.uk/gp/product/1101906030/ref=as_li_ss_tl?pf_
 bookImage: images/books/Radical-Beauty.jpg
 
 ---
+Today is Day 2 of my reading of the book
+
 Feel more beautiful, healthy, and energized than you have in years! Now, a revolutionary new way of helping you realize the true beauty that is your birthright!
 
 Deepak Chopra, a leading pioneer of integrative medicine and _New York Times_ bestselling author of _What Are You Hungry For?,_ and Kimberly Snyder, a Hollywood superstar nutritionist and _New York Times_ bestselling author of _The Beauty Detox Solution,_ offer an exciting and practical program to help transform you from the inside out. Through six pillars of healthy living that focus on internal and external nourishment, sleep, living naturally, avoiding excessive stress, and better understanding the relationship between emotions and inflammatory foods, the authors offer practical tips, tools, innovative routines, and foods that will allow you to achieve your highest potential of beauty and health.
