@@ -21,8 +21,6 @@ Here is the latest information on foods to support your metabolism and how to be
 
 With powerful DIY home skincare and beauty remedies and treatments to address everything from acne to dry skin and wrinkles, techniques to promote your natural beauty by syncing with the power of rhythms found in nature, strategic dietary tips, and delicious recipes, _Radical Beauty_ will help you feel more confident, achieve more beautifully smooth illuminating skin, healthy hair, bright eyes, and--perhaps best of all--the ability to tap into and be in touch with the true beauty that is already within you.
 
-{{% post-it title="Warning! 🚨" %}}
+{{% post-it title="Warning! 🚨" %}}Hong Kong Phooey, number one super guy. **Hong Kong Phooey**, quicker than the human eye. He’s got style, _a groovy style_, and a car that just won’t stop.{{% / post-it %}}
 
-Hong Kong Phooey, number one super guy. **Hong Kong Phooey**, quicker than the human eye. He’s got style, _a groovy style_, and a car that just won’t stop.
-
-{{% / post-it %}}
+Today is Day 2 of my reading of the book
