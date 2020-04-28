@@ -2,7 +2,8 @@
 title: Radical Beauty
 date: 2020-04-27T23:00:00Z
 draft: false
-categories: []
+categories:
+- "\U0001F4D6 Radical Beauty"
 bookTitle: Radical Beauty
 bookDescription: How to Transform Yourself from the Inside Out
 bookIntroduction: How to Transform Yourself from the Inside Out
