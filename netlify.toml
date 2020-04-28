@@ -1,0 +1,9 @@
+[build]
+publish = "public"
+command = "./stackbit-build.sh"
+
+  [build.environment]
+  HUGO_VERSION = "0.69.2"
+
+[context.deploy-preview]
+command = "npm run deploy"

@@ -1,0 +1,81 @@
+stackbitVersion: ~0.2.0
+ssgName: custom
+buildCommand: hugo
+publishDir: public
+staticDir: static
+uploadDir: images/books/
+dataDir: data
+pagesDir: content
+models:
+  pagenotfound:
+    type: page
+    label: '404'
+    file: 404.md
+    hideContent: true
+    singleInstance: true
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page
+  bookspage:
+    type: page
+    label: Book
+    folder: content/books/
+    match: '*.md'
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page
+      - type: date
+        name: date
+        label: Date
+      - type: boolean
+        name: draft
+        label: draft
+        description: should be post in draft state?
+      - type: list
+        name: categories
+        items:
+          type: string
+          label: category
+          labelField: category
+          fields:
+            - type: string
+              name: category
+              label: category
+      - type: string
+        name: bookTitle
+        label: Book Title
+        description: What is the title of the book
+      - type: string
+        name: bookDescription
+        label: Book Description
+        description: What is the description of the book
+      - type: string
+        name: bookIntroduction
+        label: Book Introduction
+        description: What is the introduction of the book
+      - type: string
+        name: amzonOneLink
+        label: Amazon Link
+        description: What is the book link to the Amazon
+      - type: image
+        name: bookImage
+        label: Book Image
+        description: The image shown in the book post.
+  startpage:
+    type: page
+    label: start
+    folder: content/page/
+    match: '*.md'
+    exclude: _index.md
+    fields:
+      - type: string
+        name: title
+        label: Title
+        description: The title of the page
+      - type: string
+        name: url
+        label: url

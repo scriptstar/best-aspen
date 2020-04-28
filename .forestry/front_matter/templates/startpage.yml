@@ -1,0 +1,12 @@
+---
+label: start
+is_partial: false
+fields:
+  - type: text
+    name: title
+    label: Title
+    description: The title of the page
+  - type: text
+    name: url
+    label: url
+pages: []

@@ -1,0 +1,14 @@
+<header>
+  <div class="signatures site-title">
+    <a href="{{ .Site.LanguagePrefix }}/">{{ or .Site.Params.headTitle .Site.Author.name }}</a>
+  </div>
+    <p class="tagline">{{ .Site.Params.tagline }}</p>
+</header>
+<div class="row end-xs">
+  {{ range .Site.Params.headerPage }}
+  <div class="lang-switch col-xs-4 col-xs-offset-8">
+    <a href="/{{ .link }}/">{{ .name }}</a>
+  </div>
+  {{ end }}
+</div>
+<div class="header-line"></div>

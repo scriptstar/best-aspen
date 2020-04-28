@@ -1,0 +1,15 @@
+<div class="site-footer">
+  {{ if not .IsHome }}
+  <div class="site-footer-amazon-disclaimer">
+    <!-- {{ .Site.Params.amaDisclaimer }} -->
+  </div>
+  {{end}}
+  {{ range .Site.Params.socials }}
+  <div class="site-footer-item">
+    <a href="{{ .link }}" target="_blank" rel="noopener">{{ .name }}</a>
+  </div>
+  {{ end }}
+  <div id="amzn-assoc-ad-d30c5a78-8e2e-4169-ad16-fb09f5d1831f">
+    <script async src="https://z-na.associates-amazon.com/onetag/v2?MarketPlace=US&instanceId=d30c5a78-8e2e-4169-ad16-fb09f5d1831f"></script>
+  </div>
+</div>

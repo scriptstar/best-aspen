@@ -1,0 +1,39 @@
+---
+label: Book
+is_partial: false
+fields:
+  - type: text
+    name: title
+    label: Title
+    description: The title of the page
+  - type: datetime
+    name: date
+    label: Date
+  - type: boolean
+    name: draft
+    label: draft
+    description: should be post in draft state?
+  - type: list
+    name: categories
+    label: Categories
+  - type: text
+    name: bookTitle
+    label: Book Title
+    description: What is the title of the book
+  - type: text
+    name: bookDescription
+    label: Book Description
+    description: What is the description of the book
+  - type: text
+    name: bookIntroduction
+    label: Book Introduction
+    description: What is the introduction of the book
+  - type: text
+    name: amzonOneLink
+    label: Amazon Link
+    description: What is the book link to the Amazon
+  - type: file
+    name: bookImage
+    label: Book Image
+    description: The image shown in the book post.
+pages: []

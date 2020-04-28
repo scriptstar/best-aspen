@@ -1,0 +1,31 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: static/admin
+webhook_url: 'https://api.stackbit.com/project/5ea85a0751da8f0019edc0f3/webhook/forestry'
+sections:
+  - type: document
+    label: '404'
+    path: content/404.md
+    templates:
+      - pagenotfound
+  - type: directory
+    path: content/content/books/
+    match: '*.md'
+    label: Book
+    create: all
+    templates:
+      - bookspage
+  - type: directory
+    path: content/content/page/
+    match: '*.md'
+    exclude: _index.md
+    label: start
+    create: all
+    templates:
+      - startpage
+upload_dir: static/images/books/
+public_path: /images/books/
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ':filename:'
