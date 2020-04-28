@@ -37,4 +37,5 @@ fields:
   label: Book Image
   description: The image shown in the book post.
 pages:
+- content/books/radical-beauty-1.md
 - content/books/radical-beauty.md
